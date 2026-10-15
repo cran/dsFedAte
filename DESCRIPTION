@@ -1,0 +1,35 @@
+Package: dsFedAte
+Title: Server-Side Treatment Effect Computation for Federated Studies
+Version: 0.1.0
+Authors@R: 
+  c(person(given = "Francisco",
+           family = "Andrade",
+           role = c("aut", "cre"),
+           email = "francisco.de-lima-andrade@inria.fr"),
+    person(given = "Rémi",
+           family = "Khellaf",
+           role = "aut"),
+    person(given = "Julie",
+           family = "Josse",
+           role = "aut"))
+Description: Server-side 'DataSHIELD' package that computes local average treatment
+    effect (ATE) statistics from arm-specific regression coefficients provided by
+    the analyst. Implements the server-side component of the G-formula
+    estimator from 'Federated Causal Inference: Multi-Study ATE Estimation
+    beyond Meta-Analysis' (R. Khellaf, A. Bellet and J. Josse, 2025),
+    enforcing 'DataSHIELD'
+    disclosure controls throughout.
+License: AGPL (>= 3)
+Encoding: UTF-8
+RoxygenNote: 8.0.0
+Imports: cli, dsBase, stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-10-05 07:34:51 UTC; francisco
+Author: Francisco Andrade [aut, cre],
+  Rémi Khellaf [aut],
+  Julie Josse [aut]
+Maintainer: Francisco Andrade <francisco.de-lima-andrade@inria.fr>
+Repository: CRAN
+Date/Publication: 2026-10-15 17:00:12 UTC

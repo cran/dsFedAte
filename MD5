@@ -1,0 +1,13 @@
+da2ce86a222f63e086c4843a756fcde4 *DESCRIPTION
+56e705bd3a9c51e6454af0ee1212a0ad *NAMESPACE
+b112b6157194bb4d2547dfee926eca88 *NEWS.md
+1b8b9a4d303e432bbab8738ae20a3663 *R/addStudyIdDS.R
+55ff7b9f58c1a0fcbab42c558a352244 *R/localAteDS.R
+1ec75b23531d5bb3f5007076d6324ad1 *R/utils.R
+4da2b855b512197e2d4627358ddb9ac0 *README.md
+28fe70f15dc022d6d4a1423a0a4099f4 *inst/DATASHIELD
+93f3132519f05295dd2f3ed216b7b742 *man/addStudyIdDS.Rd
+c5e6899fe8556ddd6c6a5f7d1aa389cd *man/localAteDS.Rd
+0b2c87abab58265c9ff1aa37dbd9525e *tests/testthat.R
+6a320474847429fad4445668aff69dee *tests/testthat/test-addStudyIdDS.R
+fb8ae149e144ab7ae8f614423c7804bb *tests/testthat/test-localAteDS.R
